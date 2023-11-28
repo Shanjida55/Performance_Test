@@ -2,17 +2,17 @@
 This repository contains performance tests for an API that offers four key features: creating a booking, retrieving booking details, updating booking information, and deleting a specific booking. The tests are conducted using HTTP requests, including POST, GET, PUT, and DELETE.
 
 # Testing Workflow
-## 1.Create Booking:
+## 1. Create Booking:
 -Perform a POST request to create a booking.
 -Extract the booking ID from the JSON response using a JSON Extractor.
-## 2.Retrieve Booking Details:
+## 2. Retrieve Booking Details:
 -Use the booking ID obtained from the creation step in a GET request.
 -Measure the performance of retrieving booking details.
-## 3.Update Booking Information:
+## 3. Update Booking Information:
 -Utilize the booking ID and a token generated during the initial POST request.
 -Perform a PUT request to update specific booking details.
 -Use a JSON Extractor to handle the response.
-## 4.Delete Booking:
+## 4. Delete Booking:
 -Use the booking ID created in the first step.
 -Employ the token from the initial POST request.
 -Execute a DELETE request to remove a specific booking.
