@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1701078524429,1716,Create_customer,200,OK,Fetch data from JSON Response 1-1,text,true,,957,468,1,1,https://restful-booker.herokuapp.com/booking,1705,0,1386
+1701078526191,304,Get_customer,200,OK,Fetch data from JSON Response 1-1,text,true,,932,214,1,1,https://restful-booker.herokuapp.com/booking/3447,304,0,0
+1701078526497,301,Auth,200,OK,Fetch data from JSON Response 1-1,text,true,,776,284,1,1,https://restful-booker.herokuapp.com/auth,301,0,0
+1701078526800,319,Update_Details,200,OK,Fetch data from JSON Response 1-1,text,true,,933,475,1,1,https://restful-booker.herokuapp.com/booking/3447,319,0,0
+1701078527120,306,Delete_customer,201,Created,Fetch data from JSON Response 1-1,text,true,,753,240,1,1,https://restful-booker.herokuapp.com/booking/3447,306,0,0
