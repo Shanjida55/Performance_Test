@@ -17,8 +17,9 @@ This repository contains performance tests for an API that offers four key featu
 - Employ the token from the initial POST request.
 - Execute a DELETE request to remove a specific booking.
 ## Performance Measurement
+- Leverage JMeter for performance testing.
 - Utilize JMeter's various listeners to capture performance metrics, including response times, throughput, and error rates.
-- Analyze the performance data to identify potential bottlenecks and areas for improvement.
+  
 
 ## Conclusion
 This performance testing exercise provides valuable insights into the responsiveness and efficiency of the customer CRUD operations. The results can be used to optimize the API and enhance the overall user experience.
